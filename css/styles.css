@@ -570,7 +570,7 @@ p{
 }
 .footer_div_sub_form {
   display: flex;
-  gap 24px;
+  gap: 24px;
 }
 .input_footer_div_sub_form{
   width: 264px;
