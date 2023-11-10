@@ -559,3 +559,40 @@ p{
 .li_ul_sec_ff:hover{
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
 }
+.footer_div_sub_p{
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em; 
+  color: #ffffff;
+
+}
+.footer_div_sub_form {
+  display: flex;
+  gap 24px;
+}
+.input_footer_div_sub_form{
+  width: 264px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 1.5; 
+  letter-spacing: 0.04em;
+  padding-left: 16px; 
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  color: #ffffff;
+}
+placeholder {
+  color #ffffff; 
+}
+.footer_div_sub_form_button{
+  min-width: 165px; 
+  height: 40px;
+  display: flex;
+  justify-content: center; 
+  justify-content: center; 
+  font-family: "Roboto", sans-serif; ////////
+}
