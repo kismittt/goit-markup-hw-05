@@ -585,8 +585,8 @@ p{
   border-radius: 4px;
   color: #ffffff;
 }
-placeholder {
-  color #ffffff;
+  placeholder {
+  color: #ffffff;
 }
 .footer_div_sub_form_button{
   min-width: 165px; 
@@ -643,7 +643,7 @@ placeholder {
   padding: 0;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+  position: absolute;
 }
 .modalwindow_div_button:hover{
   background-color: #404bbf;
