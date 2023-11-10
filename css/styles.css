@@ -593,6 +593,6 @@ placeholder {
   height: 40px;
   display: flex;
   justify-content: center; 
-  justify-content: center; 
+  align-items: center; 
   font-family: "Roboto", sans-serif; ////////
 }
