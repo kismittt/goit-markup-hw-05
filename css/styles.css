@@ -659,7 +659,7 @@ p{
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
-.modalwindow_div_button_svg:hover
-.modalwindow_div_button_svg:focus{
+.modalwindow_div_button:hover > .modalwindow_div_button_svg,
+.modalwindow_div_button:focus > .modalwindow_div_button_svg {
   fill: #ffffff
 }
