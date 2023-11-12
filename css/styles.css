@@ -664,3 +664,12 @@ p{
 .modalwindow_div_button:focus > .modalwindow_div_button_svg z{
   fill: #ffffff
 }
+.modalwindow_div_p{
+  font-weight: 500;
+  font-size: 16px; 
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em; 
+  color: #2E2F42;
+  margin-bottom: 16px; 
+}
