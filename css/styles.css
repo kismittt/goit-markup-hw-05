@@ -707,7 +707,7 @@ p{
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
- .modalwindow_div_form_div_label_div_input + .modalwindow_div_form_div_label_div_svg {
+ .modalwindow_div_form_div_label_div_input:focus + .modalwindow_div_form_div_label_div_svg {
   fill: #4D5AE5;
  }
  .modalwindow_div_form_div_f{
@@ -727,14 +727,17 @@ p{
   outline: transparent;
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ 
+ }
+ .modalwindow_div_form_div_textarea:focus{
   border-color: #4D5AE5;
  }
  .modalwindow_div_form_div_for_label{
   margin-bottom: 24px;
  }
- .modalwindow_div_form_div_for_label_input{
+ /* .modalwindow_div_form_div_for_label_input{
   visually-hidden
- }
+ } */
  .modalwindow_div_form_div_for_label_l{
   font-size: 12px;
   line-height: 1.17;
@@ -785,4 +788,10 @@ p{
   cursor: pointer;
   border-radius: 4px; 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+ }
+
+ .modalwindow_div_form_div_for_label_input:checked + .modalwindow_div_form_div_for_label_l > .modalwindow_div_form_div_for_label_l_span {
+  background-color:  #404bbf;
+  border: none;
+  fill: #F4F4FD;
  }
