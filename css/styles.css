@@ -753,3 +753,36 @@ p{
   fill: transparent;
 
  }
+
+
+ input:checked + span{
+
+ }
+
+
+ .modalwindow_div_form_div_for_label_l_a{
+  color: #4d5ae5;
+ }
+ .form_six_button{
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em ;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4D5AE5 ;
+  border: none; 
+  border-radius: 4px; 
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5 ;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 4px; 
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+ }
