@@ -710,3 +710,46 @@ p{
  .modalwindow_div_form_div_label_div_input + .modalwindow_div_form_div_label_div_svg {
   fill: #4D5AE5;
  }
+ .modalwindow_div_form_div_f{
+  margin-bottom: 16px
+ }
+ .modalwindow_div_form_div_textarea{
+  width: 100%;
+  height: 120px;
+  font-size: 12px; 
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4); 
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  background-color: transparent;
+  padding: 8px 16px;
+  outline: transparent;
+  resize: none;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border-color: #4D5AE5;
+ }
+ .modalwindow_div_form_div_for_label{
+  margin-bottom: 24px;
+ }
+ .modalwindow_div_form_div_for_label_input{
+  visually-hidden
+ }
+ .modalwindow_div_form_div_for_label_l{
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em; 
+  color: #8e8f99; 
+ }
+ .modalwindow_div_form_div_for_label_l_span{
+  width: 16px;
+  height: 16px; 
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex; 
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+
+ }
